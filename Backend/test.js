@@ -11,3 +11,5 @@ waitForElm('p.ford-contact').then(function() {
     document.querySelector("#private_offer_wrapper > div.fordbox-22891 > div.content-container.topbump > span").style.height = '35px'
 
 });
+
+console.log("loking for great deal")
