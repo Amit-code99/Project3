@@ -1,6 +1,6 @@
 waitForElm('p.ford-contact').then(function() {
     /* Invoking improved Popup Language Button Visibility Function */
-    // console.log('PO: Invoked on 4th waitForElm Block - #464 - newLangBtnForVisibilityFN')
+     console.log('PO: Invoked on 4th waitForElm Block - #464 - newLangBtnForVisibilityFN')
     let reduceParghPadding = document.querySelectorAll('p.ford-contact');
     newLangBtnForVisibilityFN(reduceParghPadding);
     for (let i = 0; i < reduceParghPadding.length; i++) {
